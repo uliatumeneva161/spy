@@ -1,6 +1,6 @@
 # 🎭 Mafia Game - React Реализация  
 
-![Preview](./preview.jpg)  
+![Preview](./img/preview.jpg)  
 
 **Описание проекта для GitHub**
 
