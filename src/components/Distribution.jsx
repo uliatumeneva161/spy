@@ -50,7 +50,7 @@ const Distribution = ({ setCurrentPage, roles, players }) => {
     const newShuffled = shuffleRoles();
     setShuffledRoles(newShuffled);
     setPlayerRoles(assignRoles(newShuffled));
-    setSelectedPlayer(null); // Сбрасываем открытую карточку
+    setSelectedPlayer(null); 
   };
 
   const showRoleCard = (playerId) => {

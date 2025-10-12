@@ -53,12 +53,13 @@ const Main = ({ setCurrentPage, roles, setRoles }) => {
             <p className="main-p" onClick={() => addOwnRole()}>Добавьте собственную роль</p>
             {isOwnRole && (<div className="main__addBlock">
                 <input value={newRole} onChange={(e)=>setNewRole(e.target.value)}/>
-                <button onClick={() => saveOwnRole()}>Добавить</button>
-                <button onClick={() => delOwnRole()}>Отмена</button>
+                <button className='addrole-btn' onClick={() => saveOwnRole()}>Добавить</button>
+                <button className='addrole-btn' onClick={() => delOwnRole()}>Отмена</button>
             </div>)}
             <div className="bottom-panel">
-            <button onClick={()=>setCurrentPage('nameplayer')}>Продолжить</button>
-            <button onClick={()=>setCurrentPage('welcome')}>Назад</button>
+          
+                <button onClick={() => setCurrentPage('nameplayer')}>Продолжить</button>
+                  <button onClick={() => setCurrentPage('welcome')}>Назад</button>
             </div>
        
         </div>

@@ -1,11 +1,11 @@
 // App.jsx
 import { useState } from 'react'
 import './App.css'
-import Welcome from './assets/components/Welcome'
-import Main from './assets/components/Main'
-import Details from './assets/components/Details'
-import NamePlayer from './assets/components/NamePlayer'
-import Distribution from './assets/components/Distribution'
+import Welcome from './components/Welcome'
+import Main from './components/Main'
+import Details from './components/Details'
+import NamePlayer from './components/NamePlayer'
+import Distribution from './components/Distribution'
 
 function App() {
   

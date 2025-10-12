@@ -85,14 +85,15 @@ const NamePlayer = ({ setCurrentPage, roles, players, setPlayers }) => {
       )}
       
       <div className="bottom-panel">
-        <button
+      
+        <button onClick={() => setCurrentPage('main')}>
+          Назад
+        </button>
+          <button
           onClick={proceedToNextPage}
           disabled={!canContinue}
         >
           Продолжить
-        </button>
-        <button onClick={() => setCurrentPage('main')}>
-          Назад
         </button>
       </div>
     </div>
